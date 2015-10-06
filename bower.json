@@ -1,0 +1,16 @@
+{
+  "name": "AngularProfile",
+  "version": "0.0.1",
+  "authors": [
+    "Carlos Soltero <carlosh95@gmail.com>"
+  ],
+  "description": "profile page",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
