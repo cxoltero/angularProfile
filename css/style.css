@@ -4,7 +4,8 @@
 }
 nav{
 	position: absolute;
-	background-color: rgba(0, 0, 0, 1)
+	background-color: rgba(0, 0, 0, 1);
+	padding-right: 5%;
 }
 #navbar a{
 	color: white;
@@ -83,12 +84,14 @@ nav{
 	clear: both;
 	text-align: center;
 }
+
 @media (max-width: 771px) {
+	nav{
+		text-align: center;
+	}
+
   .intro{
   	display: none;
-  }
-  .responsive{
-  	display: block;
   }
 }
 
