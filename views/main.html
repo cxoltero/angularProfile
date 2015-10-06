@@ -1,15 +1,18 @@
 <div class="section mainBody" ng-controller="MainCtrl">
 <div class="content bgImage" ng-style="heroImage">
     <div class="intro">
-    <!-- <div class="container intro-content"> -->
       <div class="row welcome">
-        <!-- <div class="col-md-8 col-md-offset-2"> -->
-        <img ngSrc="{{bgImage}}" id="profilePic"/>
-          <h1 id="mainLogo">Carlos <span>Hernández</span></h1>
-          <h3 id="subtitle">Full Stack Web Developer And Entrepreneaur</h3>
+        <img ng-src="{{profilePic}}" id="profilePic"/>
+        <h1 id="mainLogo">Carlos <span>Hernández</span></h1>
+        <h3 id="subtitle">Full Stack Web Developer And Entrepreneaur</h3>
+        <div class="icons">
+          <div class="row" >
+            <div ng-repeat="icon in icons">
+              <img ng-src="img/icons/{{icon.name}}" alt="javascript" class="col-sm-1"/>
+            </div>
+          </div>
         </div>
-      <!-- </div> -->
-    <!-- </div> -->
-  </div>
+      </div>
+    </div>
 </div>
 </div>

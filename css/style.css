@@ -11,7 +11,6 @@ nav{
 }
 
 .content{
-	background-color: orange;
 	margin-top: 50px;
 	height: 100vh;
 }
@@ -35,7 +34,7 @@ nav{
 .welcome{
 	background-color: rgba(0, 0, 0, 0.75);
 	border-radius: 5px;
-	height: 25vh;	
+	height: 45vh;	
 }
 
 .welcome h3{
@@ -48,12 +47,28 @@ nav{
 
 #mainLogo{
 	text-align: center;
-	font-size: 7.5vh;
+	font-size: 6.5vh;
 	color: yellow;
 	font-family: 'Vidaloka', serif;
 }
+
 #mainLogo span{
 	color: green;
+}
+
+
+#profilePic{
+	border-radius: 50%;
+	width: 20%;
+	min-width: 125px;
+	padding-top: 1vh;
+}
+.icons{
+	width: 95%;
+	margin-left: 2.5%;
+}
+.icons-row{
+	/*width: 95%;*/
 }
 
 @media (max-width: 600px) {
