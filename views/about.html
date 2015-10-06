@@ -6,36 +6,13 @@
 	      	<div class="col-md-12">
 	      		<h1>Hobbies</h1>
 	      	</div>
-	        <div class="col-md-4">
-	          <img src="img/mtnbkg.png" class="hobbiePic">
-	          <div class="hobbieDescription">
-	          <h2>Mountain Biking</h2>
-	          
-	          <p>
-	          	I enjoy the outdoors quite a bit and try to spend as much time participating in outdoor activities as I can. Although I enjoy all sports, mountain biking is my favorite. Most of the time I am biking in Rhode Island, but I like to experience different areas of New England. Kingdom Trails in East Burke, Vermont is definitely my favorite so far. 
-	          </p>
-	          </div>
-	        </div>
-	       <div class="col-md-4">
-	          <img src="img/travel.png" class="hobbiePic">
-	          <div class="hobbieDescription">
-	          <h2>Traveling</h2>
-	          <p>
-	          	Traveling is one of my favorite hobbies, even though I cannot do it as much as I wish. I enjoy learning about different cultures and meeting new people. Throughout my life, I hope to be able to travel to as many countries and major landmarks as I can. <br/>
-	          	
-
-	          </p>
-	          </div>
-	        </div>
-	        <div class="col-md-4">
-	          <img src="img/technology.png" class="hobbiePic">
-	          <div class="hobbieDescription">
-	          <h2>Technology</h2>
-	          <p>
-				I have learned to appreciate everyday advances in technology. There is always something new to learn about. I am the kind of person that is always looking for something new. Once I find an idea, I dig deeper so I know how it works. My curiousity is one of my major assets. <br/>
-				 
-	          </p>
-	          </div>
+	      	<div ng-repeat="hobbie in hobbies">
+		        <div class="col-md-4">
+		          <img ng-src="img/{{hobbie.name}}" class="hobbiePic"/>
+		          <h2>{{hobbie.title}}</h2>
+		          <p class="hobbieDescription">{{hobbie.desc}}</p>
+		          <br/>
+		        </div>
 	        </div>
        </div>
   </div>

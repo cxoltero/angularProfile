@@ -12,7 +12,7 @@ myPortfolio.controller('MainCtrl', function($scope){
 	    		"name": "html.png"
 	    	},
 	    	{
-	    		"name": "css3.png"
+	    		"name": "css.png"
 	    	},
 	    	{
 	    		"name": "json.png"

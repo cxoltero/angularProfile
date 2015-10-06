@@ -70,12 +70,15 @@ nav{
 .icons-row{
 	/*width: 95%;*/
 }
-
-@media (max-width: 600px) {
-  #mainLogo{
-	font-size: 5vh;
-   }
+.responsive{
+	display: none;
 }
+@media (max-width: 771px) {
+  .intro{
+  	display: none;
+  }
+}
+
 /*##########End of index page##########*/
 
 .container-fluid{
