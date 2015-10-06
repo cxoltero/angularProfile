@@ -73,11 +73,25 @@ nav{
 .responsive{
 	display: none;
 }
+.responsiveNav{
+	background-color: rgba(255, 255, 255, .75);
+	width: 45%;
+	height: 40%;
+	margin: 2% 2%;
+	display: inline-block;
+	float:right;
+	clear: both;
+	text-align: center;
+}
 @media (max-width: 771px) {
   .intro{
   	display: none;
   }
+  .responsive{
+  	display: block;
+  }
 }
+
 
 /*##########End of index page##########*/
 

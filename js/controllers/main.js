@@ -40,9 +40,31 @@ myPortfolio.controller('MainCtrl', function($scope){
 	    	},
 	    	{
 	    		"name": "node.png"
-	    	// },
-	    	// {
-	    	// 	"name": "mongo.png"
+	    	},
+	    	{
+	    		"name": "mongo.png"
 	    	}
 	    ];
+	    $scope.tabs = [
+	    	{
+	    		"name": "HOME",
+	    		"url": "#/"
+	    	},
+	    	{
+	    		"name": "ABOUT",
+	    		"url": "#/about"
+	    	},
+	    	{
+	    		"name": "PORTFOLIO",
+	    		"url": "#/portfolio"
+	    	},
+	    	{
+	    		"name": "CONTACT ME",
+	    		"url": "#/contact"
+	    	},
+	    	{
+	    		"name": "RESUME",
+	    		"url": "#/resume"
+	    	}
+	    ]
 	})
