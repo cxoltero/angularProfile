@@ -7,8 +7,23 @@ nav{
 	background-color: rgba(0, 0, 0, 1);
 	padding-right: 5%;
 }
-#navbar a{
+
+.nav li a {
 	color: white;
+}
+
+.nav li a:hover{
+	background-color: rgba(141, 147, 150);
+	color: #357695;
+}
+.navbar-brand{
+	font-family: 'Playfair Display', serif;
+	font-size: 3vh;
+	color: #B8C6BC;
+}
+
+.icon-bar{
+	background-color: white;
 }
 
 .content{
@@ -16,6 +31,11 @@ nav{
 	height: 100vh;
 }
 
+
+#about h1, #contact h1, #portfolio h1{
+	font-family: 'Vidaloka', serif;
+	font-size: 48px;
+}
 
 /* ########## Index page css ##########*/
 .bgImage{
@@ -94,42 +114,7 @@ nav{
   	display: none;
   }
 }
-
-
-/*##########End of index page##########*/
-
-.container-fluid{
-	margin: 0;
-	padding: 0;
-}
-#indexPage{
-	background-color: red;
-	height: 100vh;
-}
-
-.navbar-brand{
-	font-family: 'Playfair Display', serif;
-	font-size: 3vh;
-	color: #B8C6BC;
-}
-
-.icon-bar{
-	background-color: white;
-}
-.nav li a:hover{
-	background-color: rgba(214, 213, 219, .6);
-	color: red;
-}
-
-
-.hobbiePic{
-	width: 100%;
-	height:auto;
-	border-radius: 5px;
-}
-.hobbiePic p{
-	margin: 10px;
-}
+/*##########  About page##########*/
 #about{
 	padding: 10px;
 	width: auto;
@@ -137,21 +122,6 @@ nav{
 	height: 100%;
 	text-align: center;
 }
-#portfolio{
-	/*padding: 10px;*/
-	width: auto;
-	min-height: 700px;
-	height: 100%;
-	text-align: center;
-}
-
-
-#about h1, #contact h1, #portfolio h1{
-	/*margin-top: 50px;*/
-	font-family: 'Vidaloka', serif;
-	font-size:4vw;
-}
-
 #about h2{
 	text-align: center;
 }
@@ -159,16 +129,39 @@ nav{
 	font-size: 2vh;
 	color: #d8d8d8;
 }
-.hobbieDescription{
+
+.hobbiePic{
+	width: 100%;
+	height:auto;
+}
+.hobbieContent{
 	background-color: #5FB0BF;
 	color: white;
 	padding: 4px;
 }
 
+/*##########  Portfolio page##########*/
 #portfolio{
-	background-color: #4F633E ;
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
 	padding: 20px 50px;
 	color: white;
+	width: auto;
+	height: 100%;
+	text-align: center;
+	margin-left: -15px;
+
+}
+.projectTabs{
+	background-color: white;
+	margin: 0 20px;
 }
 #portfolio ul li{
 	list-style: none;
@@ -184,9 +177,9 @@ nav{
 }
 
 #portfolio ul li a img:hover{
-	-webkit-box-shadow: 0px 30px 35px 0px rgba(0,0,0,0.5);
-	-moz-box-shadow: 0px 30px 35px 0px rgba(0,0,0,0.5);
-	box-shadow: 0px 30px 35px 0px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 10px 25px 0px rgba(255,255,255,0.5);
+	-moz-box-shadow: 0px 10px 25px 0px rgba(255,255,255,0.5);
+	box-shadow: 0px 10px 25px 0px rgba(255,255,255,0.5);
 }
 
 .portfolioPics{

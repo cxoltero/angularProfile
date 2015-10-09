@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<div class="container">
 <div class="content">
   <!-- Example row of columns -->
   <div id="about">
@@ -8,11 +8,13 @@
 	      	</div>
 	      	<div ng-repeat="hobbie in hobbies">
 		        <div class="col-md-4">
-		          <img ng-src="img/{{hobbie.name}}" class="hobbiePic"/>
-		          <h2>{{hobbie.title}}</h2>
-		          <p class="hobbieDescription">{{hobbie.desc}}</p>
-		          <br/>
-		        </div>
+		          		<img ng-src="img/{{hobbie.name}}" class="hobbiePic"/>
+		          		<div class="hobbieContent">
+		          		<h2>{{hobbie.title}}</h2>
+		          		<p>{{hobbie.desc}}</p>
+		        	</div>
+	        	</div>
+	        	<br/>
 	        </div>
        </div>
   </div>
