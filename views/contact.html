@@ -1,18 +1,43 @@
-<div class="container-fluid">
-<div class="content">
-  <div id="contact">
-  	<div class="row">
-  		<div class="col-sm-6 col-sm-offset-3">
-  			<h1>Contact Me</h1>
-  			<ul>
-	  			<li><a href="mailto:carlosh95@gmail.com'"><img src="img/mail.png"></a></li>
-  				<li><a href="https://www.facebook.com/csoltero" target="_blank"><img src="img/fb.png"></a></li>
-  				<li><a href="https://www.plus.google.com/u/0/118426138785150730888/posts" target="_blank"><img src="img/google.png"></a></li>
-  				<li><a href="https://www.github.com/cxoltero"><img src="img/gh.png"></a></li>
-  				<li><a href="https://www.twitter.com/cxoltero"><img src="img/twitter.png"></a></li>
-  				<li><a href="https://www.linkedin.com/in/carloshdzs"><img src="img/ln.png"></a></li>
-  			</ul>
-  		</div>
-  	</div>
-</div>
+<div class="container-fluid" id="contact">
+  <div class="container">
+  <div class="content">
+      <div class="row">
+        <h1>Contact Me</h1>
+      </div>
+    	<div class="row">
+        <div class="col-sm-6">
+          <img ng-src="{{contactMe.pic}}"/>
+        </div>
+        <div class="col-sm-6 info">
+          <h3>{{contactMe.name}}</h3>
+          <h4><i class="fa fa-phone-square"></i>  {{contactMe.phone}}</h4>
+          <h4><i class="fa fa-envelope-square"></i> {{contactMe.email}}</h4>
+          <h4><i class="fa fa-television"></i> <a href="www.carloshdz.net" targer= "_blank">{{contactMe.webpage}}</a></h4>
+          <h4>Social:</h4>
+          <div class="social">
+            <p><i class="fa fa-facebook-square"></i> Facebook</p>
+            <p><i class="fa fa-github"></i> Github</p>
+            <p><i class="fa fa-google-plus-square"></i> Google +</p>
+            <p><i class="fa fa-linkedin-square"></i> Linkedin</p>
+          </div>
+ <!--                      <ul>
+            <li><a href="https://www.facebook.com/csoltero" target="_blank"><img src="img/fb.png"></a></li>s
+            <li><a href="https://www.github.com/cxoltero"><img src="img/gh.png"></a></li>
+            <li><a href="https://www.twitter.com/cxoltero"><img src="img/twitter.png"></a></li>
+            <li><a href="https://www.linkedin.com/in/carloshdzs"><img src="img/ln.png"></a></li>
+          </ul> -->
+        </div>
+<!--     		<div class="col-sm-6">
+    			<ul>
+  	  			<li><a href="mailto:carlosh95@gmail.com'"><img src="img/mail.png"></a></li>
+    				<li><a href="https://www.facebook.com/csoltero" target="_blank"><img src="img/fb.png"></a></li>
+    				<li><a href="https://www.plus.google.com/u/0/118426138785150730888/posts" target="_blank"><img src="img/google.png"></a></li>
+    				<li><a href="https://www.github.com/cxoltero"><img src="img/gh.png"></a></li>
+    				<li><a href="https://www.twitter.com/cxoltero"><img src="img/twitter.png"></a></li>
+    				<li><a href="https://www.linkedin.com/in/carloshdzs"><img src="img/ln.png"></a></li>
+    			</ul>
+    		</div> -->
+    </div>
+  </div>
+  </div>
 </div>

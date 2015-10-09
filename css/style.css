@@ -7,6 +7,9 @@ nav{
 	background-color: rgba(0, 0, 0, 1);
 	padding-right: 5%;
 }
+.prof{
+	width: 100%;
+}
 
 .nav li a {
 	color: white;
@@ -88,8 +91,8 @@ nav{
 	width: 95%;
 	margin-left: 2.5%;
 }
-.icons-row{
-	/*width: 95%;*/
+.icons img{
+	min-width: 62px;
 }
 .responsive{
 	display: none;
@@ -196,17 +199,23 @@ nav{
 }
 
 #contact{
+	background-color: #DBD8CF;
+	margin-top: 50px;
 	text-align: center;
 	min-height: 400px;
 }
-
+#contact img{
+	width: 50%;
+}
+.info{
+	text-align: left;
+}
 #contact ul li{
 	list-style: none;
 	display: inline-block;
 }
-#contact ul li a img{
-	margin-top: 50px;
-	width: 5vh;
+.social{
+	margin-left: 75px;
 }
 
 footer{

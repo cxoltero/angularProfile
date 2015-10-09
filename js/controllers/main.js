@@ -24,27 +24,27 @@ myPortfolio.controller('MainCtrl', function($scope, $http){
 	    	{
 	    		"name": "rails.png"
 	    	},
-	    	{
-	    		"name": "git.png"
-	    	},
-	    	{
-	    		"name": "grunt.png"
-	    	},
-	    	{
-	    		"name": "sql.png"
-	    	},
+	    	// {
+	    	// 	"name": "git.png"
+	    	// },
+	    	// {
+	    	// 	"name": "grunt.png"
+	    	// },
+	    	// {
+	    	// 	"name": "sql.png"
+	    	// },
 	    	{
 	    		"name": "bootstrap.png"
 	    	},
-	    	{
-	    		"name": "ps.png"
-	    	},
+	    	// {
+	    	// 	"name": "ps.png"
+	    	// },
 	    	{
 	    		"name": "node.png"
-	    	},
-	    	{
-	    		"name": "mongo.png"
 	    	}
+	    	// ,{
+	    	// 	"name": "mongo.png"
+	    	// }
 	    ];
 	    $scope.tabs = [
 	    	{
