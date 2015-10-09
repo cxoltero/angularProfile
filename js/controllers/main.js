@@ -1,9 +1,5 @@
 'use strict'
 myPortfolio.controller('MainCtrl', function($scope, $http){
-		$http.get("custsql-ipg49.eigbox.net")
-    	.success(function (response) {$scope.names = response.records;});
-
-
 		$scope.navbarCollapsed = false;
 		$scope.heroImage = {
         'background-image': 'url(img/backDev.jpg)'

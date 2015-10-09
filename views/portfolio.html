@@ -4,37 +4,23 @@
     <div class="row">
     	<div class="container">
     	<h1>Portfolio</h1>
-		<ul class="row">
-			<li class="col-sm-3"><a href="https://github.com/ga-wdi-pixelect" target="_blank"><img ng-src="{{pixelect}}" class="portfolioPics"/></a>
-				<h3>Pixelect</h3>
-				<p>Pixelect is a RoR web app developed as a joint project during my Web Develpment bootcamp. This app consists of a rails API and an HandlebarsJS front end app.</p></li>			
-			<li class="col-sm-3"><a href="https://github.com/cxoltero/easyManage" target = "_blank"><img ng-src="{{easyManage}}" class="portfolioPics"/></a> 
-				<h3>EasyManage</h3>
-				<p>EasyManage is a RoR app intended to be a one stop for the hospitality industry organization. The technologies used are RoR, Javascript, HTML/CSS</p>
-			</li>
-			<li class="col-sm-3"><a href="https://github.com/cxoltero/angularAddressBook/tree/master/myContacts" target="_blank"><img ng-src="{{angularContacts}}" class="portfolioPics"/></a>
-				<h3>myContacts</h3>
-				<p>myContacts is a web based address book made with AngularJS and firebase API. </p>
-			</li>
-			<li class="col-sm-3"><a href="http://cxoltero.github.io/YouSearch/" target="_blank"><img ng-src="{{youSearch}}" class="portfolioPics"/></a>
-				<h3>youSearch</h3>
-				<p>youSearch is a simple web page made with JQuery and the youtube API. The purpose of youSearch is to look for videos in a clean interface.</p>
-			</li>
-		</ul>
-		<ul class="row">
-			<li class="col-sm-3"><a href="https://github.com/cxoltero/BootstrapImageGallery" target="_blank"><img ng-src="{{imgGallery}}" class="portfolioPics"/></a>
-				<h3>imageGallery</h3>
-				<p>This project is a gallery website made with bootstrap. This was a small project to experiment with bootstrap.</p>
-			</li>
-			
-			<li class="col-sm-3"><a href="http://cxoltero.github.io/cancunjohnston/" target="_blank"><img ng-src="{{mexRestaurant}}" class="portfolioPics"/></a>
-				<h3>Restaurant Website</h3>
-				<p>This project is a website for the restaurant I currently work at. It is made using mainly bootstrap.</p></li>
-			<li class="col-sm-3"><a href="https://github.com/cxoltero/agencyTemplate" target="_blank"><img ng-src="{{galleryFront}}" class="portfolioPics"/></a>
-				<h3>Digital Agency</h3>
-				<p>This project is a bootstrap template for a digital agency. It is intended to be a simple single page website.</p>
-			</li>
-		</ul>
+    	
+			<ul class="row">
+			<div ng-repeat="project in projects">	
+				<li class="col-sm-3"><a href="{{project.url}}" target="_blank"><img ng-src="{{project.image}}" class="portfolioPics"/></a>
+					<h3>{{project.name}}</h3>
+					<p>{{project.description}}</p>
+				</li>
+			</div>
+			</ul>
+<!-- 			<div class="project">
+				<a href="{{project.url}}">
+					<img ng-src="{{project.image}}" class="portfolioPics">
+				</a>
+				<h3>{{project.name}}</h3>
+				<p>{{project.description}}</p>
+			</div> -->
+		
 		</div>
 	</div>
   </div>

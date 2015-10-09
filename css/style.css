@@ -159,12 +159,20 @@ nav{
 	margin-left: -15px;
 
 }
+
+.project{
+	width: 30%;
+	/*background-color: red;*/
+	display: inline-block;
+	float: left;
+}
 .projectTabs{
 	background-color: white;
 	margin: 0 20px;
 }
 #portfolio ul li{
 	list-style: none;
+	padding-top: 150px;
 }
 #portfolio ul li p{
 	padding: 10px;
